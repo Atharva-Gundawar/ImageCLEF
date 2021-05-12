@@ -19,6 +19,8 @@ def get_labels():
 
 def return_prediction(image):
 
+    labels = get_labels()
+
     np.set_printoptions(suppress=True)
 
     # Loading the model
