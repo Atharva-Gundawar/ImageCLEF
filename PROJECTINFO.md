@@ -1,5 +1,5 @@
-# Product Name
-> Short blurb about what your product does.
+# ImageCLEF 2015 
+> Deployment of model to classify images from the ImageCLEF 2015 dataset
 
 ### File Structure
 ------------
