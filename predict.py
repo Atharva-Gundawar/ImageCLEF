@@ -5,7 +5,7 @@ import warnings
 import time
 
 def get_labels():
-    with open('/content/labels.txt','r') as f:
+    with open('model\converted_keras\labels.txt','r') as f:
         content = f.readlines()
     content = [x.strip() for x in content] 
 
@@ -24,7 +24,7 @@ def return_prediction(image):
     np.set_printoptions(suppress=True)
 
     # Loading the model
-    model = tensorflow.keras.models.load_model('/content/keras_model.h5')
+    model = tensorflow.keras.models.load_model('model\converted_keras\keras_model.h5')
 
     # Input data array for the model
     data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
