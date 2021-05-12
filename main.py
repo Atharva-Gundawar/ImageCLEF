@@ -39,7 +39,7 @@ def main():
     st.image(image, caption='Uploaded Image.', use_column_width=True)
     st.write("")
     st.write("Classifying...")
-    label,time_req = get_labels(uploaded_file)
+    label,time_req = return_prediction(uploaded_file)
     st.write(f'{label}')
     st.write(f'{time_req}')
     
