@@ -1,1 +1,7 @@
-
+streamlit==0.62.1
+tensorflow==2.4.1
+numpy==1.18.4
+PIL==1.1.6
+time==1.0.0
+Image==1.5.33
+predict==3.1.13
