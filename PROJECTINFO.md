@@ -1,40 +1,36 @@
-# ImageCLEF 2015 
-> Deployment of model to classify images from the ImageCLEF 2015 dataset
 
-### File Structure
-------------
-    ├── .gitignore
-    ├── LICENSE
-    ├── main.py
-    ├── predict.py
-    ├── PROJECTINFO.md
-    ├── README.md
-    ├── requirements.txt
-    │
-    ├───model
-    │   ├───converted_keras
-    │   │   ├──keras_model.h5
-    │   │   └──labels.txt
-    │   │
-    │   └───converted_savedmodel
-    │       ├── labels.txt
-    │       └───model.savedmodel
-    │           ├──saved_model.pb
-    │           ├───assets
-    │           └───variables
-    │                ├──variables.data-00000-of-00001
-    │                └──variables.index
-    │
-    └───Model-zips
-        ├── converted_keras.zip
-        └── converted_savedmodel.zip
+# ImageCLEF 2015
 
+>Deployment of model to classify images from the ImageCLEF 2015 dataset
 
---------
+## File Structure
+
+```markdown
+  ├── .gitignore                      <- DSC
+  ├── LICENSE                         <- DSC
+  ├── main.py                         <- DSC
+  ├── model                           <- DSC
+  │   ├── converted_keras             <- DSC
+  │   │   ├── keras_model.h5          <- DSC
+  │   │   └── labels.txt              <- DSC
+  │   └── converted_savedmodel        <- DSC
+  │       ├── labels.txt              <- DSC
+  │       └── model.savedmodel        <- DSC
+  │           ├── assets              <- DSC
+  │           └── saved_model.pb      <- DSC
+  ├── Model-zips                      <- DSC
+  │   ├── converted_keras.zip         <- DSC
+  │   └── converted_savedmodel.zip    <- DSC
+  ├── predict.py                      <- DSC
+  ├── PROJECTINFO.md                  <- DSC
+  ├── README.md                       <- DSC
+  └── requirements.txt                <- DSC
+
+```
 
 ## Contributing
 
-1. Fork it (https://github.com/Atharva-Gundawar/ImageCLEF)
+1. Fork it (<https://github.com/Atharva-Gundawar/ImageCLEF>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
