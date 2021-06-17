@@ -2,33 +2,25 @@
 
 Deployment of model to classify images from the ImageCLEF 2015 dataset
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
+## Implementation 
 
 Install the Requirements:
 
-```
+```bash
  pip install -r requirements.txt
 ```
 
-## Images
+Start the streamlit server using:
 
-![ DESCRIPTION ](https://via.placeholder.com/400)
-![ DESCRIPTION ](https://via.placeholder.com/400)
+```bash
+ streamlit run main.py
+```
+
 
 ## Built With
 
 * [Streamlit](https://streamlit.io/) - The web framework 
-* [Tensorfloe](https://www.tensorflow.org/) - end-to-end open source platform for machine learning
+* [Tensorflow](https://www.tensorflow.org/) - end-to-end open source platform for machine learning
 
 ## Contributing
 
@@ -43,9 +35,3 @@ See also the list of [contributors](https://github.com/Atharva-Gundawar/ImageCLE
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
